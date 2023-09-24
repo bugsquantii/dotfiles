@@ -23,5 +23,3 @@ alias cheatsheet='tldr --list | fzf --preview "tldr {1} --color=always" --previe
 alias finddouble="fdupes -r ."
 
 alias pdfinfo="exiftool -a -G1"
-
-alias landevices="sudo nmap -sn 192.168.8.0/24"
