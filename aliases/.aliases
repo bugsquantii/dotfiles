@@ -23,3 +23,5 @@ alias cheatsheet='tldr --list | fzf --preview "tldr {1} --color=always" --previe
 alias finddouble="fdupes -r ."
 
 alias pdfinfo="exiftool -a -G1"
+
+alias off="sudo shutdown now"
