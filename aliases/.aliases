@@ -25,3 +25,5 @@ alias finddouble="fdupes -r ."
 alias pdfinfo="exiftool -a -G1"
 
 alias off="sudo shutdown now"
+
+alias code="flatpak run com.visualstudio.code"

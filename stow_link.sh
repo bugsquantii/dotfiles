@@ -16,10 +16,10 @@ fi
 
 stow oh-my-zsh -t ~/.oh-my-zsh/
 
-stow xfce4shortcuts -t ~/.config/xfce4/xfconf/xfce-perchannel-xml/
+#stow xfce4shortcuts -t ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 rm $HOME/.zshrc
 
-stow zshrc functions aliases -t ~/
+stow zshrc functions aliases gitconfig -t ~/
 
 
