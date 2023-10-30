@@ -26,4 +26,8 @@ alias pdfinfo="exiftool -a -G1"
 
 alias off="sudo shutdown now"
 
-alias code="flatpak run com.visualstudio.code"
+#Restart xfce4 desktop (if lightdm)
+alias restartdesktop="sudo systemctl restart lightdm"
+
+#list all aliases from .aliases
+alias aliases="cat $HOME/.aliases"
