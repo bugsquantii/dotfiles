@@ -22,4 +22,5 @@ rm $HOME/.zshrc
 
 stow zshrc functions aliases gitconfig -t ~/
 
+stow konsole -t ~/.local/share/konsole/
 
